@@ -1,0 +1,1 @@
+# Script que lê os livros e envia ao Qdrant
