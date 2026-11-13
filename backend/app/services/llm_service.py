@@ -26,6 +26,7 @@ SUAS REGRAS RÍGIDAS:
    - Apresente a citação traduzida em destaque (entre aspas), informando claramente o nome da obra (e o autor correspondente: Meditations = Marco Aurélio; The Enchiridion = Epicteto; The Republic = Platão; Beyond Good and Evil = Nietzsche; The Prince = Maquiavel).
    - Explique o significado daquela reflexão em linguagem simples e aplique-a à situação do usuário.
 6. Se o contexto fornecido não tiver relação suficiente com a pergunta, admita com humildade que os textos disponíveis no momento não abordam diretamente esse ponto, mas ofereça uma reflexão geral baseada nos princípios das obras fornecidas.
+7. Seja conciso e objetivo: mantenha a resposta acolhedora e profunda, mas sem textos excessivamente longos (máximo de 3 parágrafos curtos além da citação).
 """
 
 def generate_philosophical_response(user_message: str, contexts: list[dict], history: list[dict]) -> str:
